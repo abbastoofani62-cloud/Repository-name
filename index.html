@@ -1,0 +1,36 @@
+!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>اتاق فرار — سراب، انکار، هراس</title>
+    <!-- React & ReactDOM via CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel for JSX (dev only) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      body { font-family: sans-serif; margin: 0; background: #fff8e1; color: #333; }
+      .container { max-width: 960px; margin: 0 auto; padding: 16px; }
+      .card { background:#fff; border-radius:12px; padding:16px; box-shadow:0 6px 18px rgba(0,0,0,.06); margin:12px 0; }
+      .btn { background:#4f46e5; color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+      header, footer { padding: 16px; }
+      nav button { margin-inline-start: 8px; }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <h1>اتاق فرار — سراب، انکار، هراس</h1>
+      <p>ریشه‌ها، راهکارها، آیات مرجع، و ورود کاربر</p>
+    </header>
+
+    <main id="root" class="container"></main>
+
+    <footer class="container">
+      <small>© ۲۰۲۵ — نمونهٔ نمایشی | آیات: حجر/۳۹، انعام/۱۵۰، انفال/۳۰</small>
+    </footer>
+
+    <!-- Load your JSX app -->
+    <script type="text/babel" src="./App.jsx" data-type="module" data-presets="react"></script>
+  </body>
+</html>
